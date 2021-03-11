@@ -1,0 +1,5 @@
+body {
+  background: no-repeat center center fixed ; 
+  background-image: linear-gradient(to right,rgb(55, 55, 255) 0%,rgb(255, 0, 0) 100%),  url("./Components/Home/bg.jpg") ;
+  background-blend-mode:darken;
+ }

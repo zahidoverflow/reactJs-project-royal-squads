@@ -1,0 +1,15 @@
+.card {
+    margin: 10px;
+    width: 18rem;
+    padding: 2rem;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    border-radius: 10px;
+}
+.img {
+    padding: 10px;
+}
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+} */
