@@ -10,7 +10,7 @@ const LeagueInfo = () => {
     const [leagueInfo, setLeagueId] = useState([])
     const param = useParams();
     useEffect(() => {
-        axios(`https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${param.idLeague}`)
+        axios(`https://www.thesportsdb.com/api/v1/json/123/lookupleague.php?id=${param.idLeague}`)
             .then(data => setLeagueId(data.data.leagues[0]))
     })
     const { strLeague, strDescriptionEN, strCountry, strGender, strSport, strFacebook, strYoutube, strTwitter, intFormedYear } = leagueInfo
