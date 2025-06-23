@@ -9,7 +9,7 @@ const Home = (props) => {
     const { setLeagueId } = props
     const [leagues, setLeagues] = useState([])
     useEffect(() => {
-        axios('https://www.thesportsdb.com/api/v1/json/1/all_leagues.php')
+        axios('https://www.thesportsdb.com/api/v1/json/123/all_leagues.php')
             .then(data => setLeagues(data.data.leagues.slice(0, 15)))
     }, [])
 
