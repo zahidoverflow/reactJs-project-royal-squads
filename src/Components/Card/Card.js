@@ -11,7 +11,7 @@ const Card = (props) => {
     const arrowIcon = <FontAwesomeIcon icon={faArrowCircleRight} />
     const [logo, setLogo] = useState([])
     useEffect(() => {
-        axios(`https://www.thesportsdb.com/api/v1/json/1/lookupleague.php?id=${idLeague}`)
+        axios(`https://www.thesportsdb.com/api/v1/json/123/lookupleague.php?id=${idLeague}`)
             .then(data => setLogo(data.data.leagues))
     })
     let history = useHistory();
